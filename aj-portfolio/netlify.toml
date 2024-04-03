@@ -1,4 +1,0 @@
-[[redirects]]
-from='aj-portfolio/*'
-to="/index.html"
-status = 200
