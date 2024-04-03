@@ -1,13 +1,15 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  margin-bottom: 3rem;
+  /* background: red; */
 }
 
 .header_logo {
   width: 2.5rem;
   transition: all 0.4s ease;
   transform-origin: center;
+  z-index: 11111;
 }
 
 .header_logo_link:hover .header_logo {
@@ -83,6 +85,7 @@
 
   .header_link_container {
     z-index: 7777;
+    background: hsla(210, 34%, 13%, 0.9);
     position: absolute;
     top: -100%;
     left: 0;
@@ -101,5 +104,9 @@
 
   .header_link_container li a {
     font-size: 4rem;
+  }
+
+  .header {
+    padding: 1rem 2rem;
   }
 }

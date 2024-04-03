@@ -1,0 +1,26 @@
+.btn {
+  background: none;
+  outline: none;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: 3rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 3px #dedede;
+  user-select: none;
+}
+
+.btn:hover {
+  background: #3d75d5;
+  box-shadow: none;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    box-shadow: inset 0px 0px 0px 1.5px #dedede;
+  }
+}

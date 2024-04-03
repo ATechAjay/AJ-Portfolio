@@ -13,14 +13,11 @@ const Header = () => {
     setShowMobileNav(!showMobileNav);
   };
 
-  console.log(showMobileNav);
-
   return (
+    // Add a new class called "open_nav"
     <header
       className={
-        showMobileNav
-          ? `${style.header} ${style.close_nav}`
-          : `${style.header} ${style.open_nav}`
+        showMobileNav ? `${style.header}` : `${style.header} ${style.open_nav}`
       }
     >
       <a href="/" className={style.header_logo_link}>
