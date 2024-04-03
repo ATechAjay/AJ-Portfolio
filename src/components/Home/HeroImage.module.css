@@ -1,7 +1,6 @@
 .img_container {
   display: flex;
   justify-content: end;
-  /* background: dodgerblue; */
   width: 100%;
 }
 

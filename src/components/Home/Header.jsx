@@ -1,8 +1,9 @@
+import { useState } from "react";
 import logo from "../../assets/logo.png";
 import style from "./Header.module.css";
+import { Link } from "react-router-dom";
 // Mobile nav icon
 import { HiOutlineViewGrid, HiOutlineX } from "react-icons/hi";
-import { useState } from "react";
 
 // import { IconName } from "react-icons/hi";
 
@@ -20,28 +21,28 @@ const Header = () => {
         showMobileNav ? `${style.header}` : `${style.header} ${style.open_nav}`
       }
     >
-      <a href="/" className={style.header_logo_link}>
+      <Link to="/" className={style.header_logo_link}>
         <img className={style.header_logo} src={logo} alt="AJ Logo" />
-      </a>
+      </Link>
 
       <ul className={style.header_link_container}>
         <li>
-          <a href="#">Project</a>
+          <Link to="/project">Project</Link>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <a href="#">Thread</a>
+          <Link to="/thread">Thread</Link>
         </li>
         <li>
-          <a href="#">Series</a>
+          <Link to="/series">Series</Link>
         </li>
         <li>
-          <a href="#">Collab</a>
+          <Link to="/collab">Collab</Link>
         </li>
         <li>
-          <a href="#">Connect</a>
+          <Link to="/connect">Connect</Link>
         </li>
       </ul>
 

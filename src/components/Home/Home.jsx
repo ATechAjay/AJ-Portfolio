@@ -1,7 +1,6 @@
 import Header from "./Header";
-import HeroContent from "./HeroContent";
-import HeroImage from "./HeroImage";
 import style from "./Home.module.css";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,8 +9,7 @@ const Home = () => {
         <Header />
       </div>
       <div className={style.hero_container}>
-        <HeroContent />
-        <HeroImage />
+        <Outlet />
       </div>
     </main>
   );
