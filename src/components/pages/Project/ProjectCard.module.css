@@ -1,5 +1,5 @@
 .card_container {
-  max-width: 20rem;
+  max-width: 30rem;
   border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
@@ -11,12 +11,12 @@
 .upper,
 .middle,
 .links_container ul {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .upper {
   border-radius: 0.8rem 0.8rem 0 0;
-  padding: 1rem;
+  /* padding: 2rem; */
   background: linear-gradient(to right, #000000e6, #000000b3),
     url("https://res.cloudinary.com/dxowsspd6/image/upload/v1712196486/AJ_Portfolio_Assets/live_currency_h4luw6.webp")
       no-repeat center center/cover;
@@ -27,17 +27,20 @@
 }
 
 .upper h3 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+}
+
+.upper p {
+  font-size: 1.6rem;
 }
 
 .upper > p:last-child {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
 .middle {
-  padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .line {
@@ -53,15 +56,15 @@
   list-style: none;
   gap: 0.5rem;
   flex-wrap: wrap;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .tag {
-  font-size: 1rem;
+  font-size: 1.3rem;
   background: aqua;
   color: #000;
   border-radius: 100px;
-  padding: 0.2rem 0.5rem;
+  padding: 0.3rem 1rem;
   text-align: center;
 }
 
@@ -79,5 +82,5 @@
 
 .links_container ul li a {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
