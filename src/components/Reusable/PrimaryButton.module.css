@@ -5,20 +5,16 @@
   font-weight: bold;
   font-size: 3rem;
   border-radius: 100px;
-  background: linear-gradient(to right, #3d75d6, #904f63);
+  background: #00ffff;
   cursor: pointer;
   transition: all 0.2s ease-out;
   user-select: none;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .primary_btn:hover {
-  background: linear-gradient(
-    to right,
-    rgba(61, 117, 214, 0.8),
-    rgba(144, 79, 99, 0.8)
-  );
+  background: #00ffffc5;
 }
 
 @media (max-width: 500px) {

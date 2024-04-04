@@ -20,13 +20,13 @@
   background: linear-gradient(
     16deg,
     #00ffff 0,
-    #9b72cb 10%,
-    #4285f4 30%,
-    #00ffff 50%,
-    #9b72cb 70%,
+    #4285f4 10%,
+    #00ffff 30%,
+    #4285f4 50%,
+    #00ffff 70%,
     #4285f4 80%,
     #00ffff 90%,
-    #9b72cb 100%
+    #4285f4 100%
   );
   background-clip: text;
 }
