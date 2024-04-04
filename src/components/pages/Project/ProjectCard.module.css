@@ -1,0 +1,83 @@
+.card_container {
+  max-width: 20rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #ffffff4f;
+}
+
+.upper,
+.middle,
+.links_container ul {
+  padding: 1rem;
+}
+
+.upper {
+  border-radius: 0.8rem 0.8rem 0 0;
+  padding: 1rem;
+  background: linear-gradient(to right, #000000e6, #000000b3),
+    url("https://res.cloudinary.com/dxowsspd6/image/upload/v1712196486/AJ_Portfolio_Assets/live_currency_h4luw6.webp")
+      no-repeat center center/cover;
+}
+
+.card_container:hover {
+  transform: scale(1.03);
+}
+
+.upper h3 {
+  font-size: 1.8rem;
+}
+
+.upper > p:last-child {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.middle {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #ffffff4d;
+  margin: 0 auto;
+}
+
+.tags_container {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.tag {
+  font-size: 1rem;
+  background: aqua;
+  color: #000;
+  border-radius: 100px;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+}
+
+.links_container {
+  justify-self: end;
+}
+
+.links_container ul {
+  display: flex;
+  gap: 8px;
+  padding: 1rem;
+  justify-content: end;
+  list-style: none;
+}
+
+.links_container ul li a {
+  color: #fff;
+  font-size: 2rem;
+}

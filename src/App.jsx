@@ -1,5 +1,6 @@
 import Home from "./components/Home/Home";
 import Hero from "./components/Home/Hero";
+import Project from "./components/pages/Project/Project";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -10,11 +11,11 @@ function App() {
       element: <Home />,
       children: [
         { path: "/", element: <Hero /> },
-        { path: "/project", element: "Project" },
-        { path: "/blog", element: "Blog" },
+        { path: "/project", element: <Project /> },
+        { path: "/collab", element: "Collab" },
         { path: "/thread", element: "Twitter thread" },
         { path: "/series", element: "Series" },
-        { path: "/collab", element: "Collab" },
+        { path: "/blog", element: "Blog" },
         { path: "/connect", element: "Connect" },
       ],
     },

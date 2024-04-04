@@ -29,18 +29,23 @@ const Header = () => {
         <li>
           <Link to="/project">Project</Link>
         </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/thread">Thread</Link>
-        </li>
-        <li>
-          <Link to="/series">Series</Link>
-        </li>
+
         <li>
           <Link to="/collab">Collab</Link>
         </li>
+
+        <li>
+          <Link to="/thread">Thread</Link>
+        </li>
+
+        <li>
+          <Link to="/series">Series</Link>
+        </li>
+
+        <li>
+          <Link to="/blog">Blog</Link>
+        </li>
+
         <li>
           <Link to="/connect">Connect</Link>
         </li>
