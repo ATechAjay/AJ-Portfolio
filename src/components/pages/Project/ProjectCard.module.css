@@ -74,13 +74,22 @@
 
 .links_container ul {
   display: flex;
-  gap: 8px;
+  gap: 10px;
   padding: 1rem;
   justify-content: end;
   list-style: none;
 }
 
+.links_container ul li {
+  transition: all 0.2s ease;
+}
+
 .links_container ul li a {
   color: #fff;
   font-size: 2.4rem;
+}
+
+.links_container ul li:hover {
+  color: red;
+  transform: scale(1.5);
 }

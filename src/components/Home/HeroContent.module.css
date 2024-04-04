@@ -9,6 +9,7 @@
 .intro {
   font-size: 3.6rem;
   font-weight: 500;
+  line-height: 1;
 }
 
 .intro_name {
@@ -18,14 +19,14 @@
   color: transparent;
   background: linear-gradient(
     16deg,
-    #4285f4 0,
+    #00ffff 0,
     #9b72cb 10%,
-    #d96570 30%,
-    #4285f4 50%,
+    #4285f4 30%,
+    #00ffff 50%,
     #9b72cb 70%,
-    #d96570 80%,
-    #4285f4 90%,
-    #d96570 100%
+    #4285f4 80%,
+    #00ffff 90%,
+    #9b72cb 100%
   );
   background-clip: text;
 }

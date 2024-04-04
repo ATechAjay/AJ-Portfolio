@@ -7,19 +7,21 @@
 .img_container img {
   background: linear-gradient(
     16deg,
-    #4285f4 0,
+    #00ffff 0,
     #9b72cb 10%,
-    #d96570 30%,
-    #4285f4 50%,
+    #4285f4 30%,
+    #00ffff 40%,
     #9b72cb 70%,
-    #d96570 80%,
-    #4285f4 90%,
-    #d96570 100%
+    #4285f4 80%,
+    #00ffff 90%,
+    #9b72cb 100%
   );
-  max-width: 70%;
+
+  background: rgb(0, 219, 219);
+  max-width: 60%;
   height: auto;
   filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
-  border-radius: 3000px;
+  border-radius: 10px;
   object-fit: cover;
   border: 1px solid #fff;
 }
@@ -42,7 +44,7 @@
 
 @media (max-width: 850px) {
   .img_container img {
-    width: 100%;
+    width: 80%;
   }
 }
 
