@@ -3,7 +3,8 @@ import logo from "../../assets/logo.png";
 import style from "./Header.module.css";
 import { Link } from "react-router-dom";
 // Mobile nav icon
-import { HiOutlineViewGrid, HiOutlineX } from "react-icons/hi";
+import { HiOutlineX } from "react-icons/hi";
+import { CgMenuGridR } from "react-icons/cg";
 
 // import { IconName } from "react-icons/hi";
 
@@ -53,7 +54,7 @@ const Header = () => {
 
       <button className={style["mobile_nav_btn"]} onClick={clickHandler}>
         {showMobileNav ? (
-          <HiOutlineViewGrid className={style.open_icon} />
+          <CgMenuGridR className={style.open_icon} />
         ) : (
           <HiOutlineX className={style.close_icon} />
         )}
