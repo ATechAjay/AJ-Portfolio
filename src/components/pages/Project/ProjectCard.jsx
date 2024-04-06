@@ -2,41 +2,55 @@ import style from "./ProjectCard.module.css";
 import { HiEye } from "react-icons/hi";
 import { FaCode } from "react-icons/fa";
 
-const ProjectCard = () => {
+const ProjectCard = ({ projectData }) => {
+  const {
+    id,
+    projectName,
+    image,
+    techStack,
+    description,
+    techTags,
+    hostedLink,
+    gitHubLink,
+  } = projectData;
+
   return (
     <section className={style.card_container}>
-      <div className={style.upper}>
-        <h3>Currency Conversion</h3>
-        <p>React App</p>
-        <p>01</p>
+      <div
+        className={style.upper}
+        style={{
+          background: `linear-gradient(to right, #000000b0, #000000b3), url(${image}) no-repeat center center/cover`,
+        }}
+      >
+        <h3>{projectName}</h3>
+        <p>{techStack}</p>
+        <p>{id}</p>
       </div>
 
       <div className={style.middle}>
-        <p>
-          A simple currency conversion app that allows users to convert
-          currencies from one denomination to another.
-        </p>
+        <p>{description}</p>
         <span className={style.line}></span>
       </div>
 
       <div className={style.lower}>
         <ul className={style.tags_container}>
-          <li className={style.tag}>HTML</li>
-          <li className={style.tag}>CSS</li>
-          <li className={style.tag}>JavaScript</li>
-          <li className={style.tag}>React</li>
+          {techTags.map((tag, index) => (
+            <li className={style.tag} key={index}>
+              {tag}
+            </li>
+          ))}
         </ul>
       </div>
 
       <div className={style.links_container}>
         <ul>
           <li>
-            <a href="https://aj-currency-converter.netlify.app/">
+            <a href={hostedLink}>
               <HiEye />
             </a>
           </li>
           <li>
-            <a href="https://github.com/ATechAjay/50-The-Ultimate-JavaScript-Projects-Series/tree/main/25%20-%20Live%20currency%20converter#">
+            <a href={gitHubLink}>
               <FaCode />
             </a>
           </li>

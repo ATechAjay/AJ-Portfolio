@@ -16,10 +16,6 @@
 
 .upper {
   border-radius: 0.8rem 0.8rem 0 0;
-  /* padding: 2rem; */
-  background: linear-gradient(to right, #000000e6, #000000b3),
-    url("https://res.cloudinary.com/dxowsspd6/image/upload/v1712196486/AJ_Portfolio_Assets/live_currency_h4luw6.webp")
-      no-repeat center center/cover;
 }
 
 .card_container:hover {
@@ -90,6 +86,5 @@
 }
 
 .links_container ul li:hover {
-  color: red;
   transform: scale(1.5);
 }

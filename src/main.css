@@ -21,6 +21,11 @@ html {
   font-size: 62.5%;
 }
 
+::selection {
+  background: #fff;
+  color: #000;
+}
+
 body {
   padding: 1.5rem;
 }
