@@ -5,7 +5,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/image_filter_app_ddegl7.webp",
     techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Easily enhance photos with filters like blur, grayscale, and vibrant colors. User-friendly interface with real-time previews for quick creative edits.",
     techTags: ["HTML", "CSS", "JavaScript"],
     hostedLink: "https://aj-filter-image-v2.netlify.app/",
     gitHubLink:
@@ -14,12 +15,13 @@ const PROJECT_DATA = [
 
   {
     id: "02",
-    projectName: "Todo List App",
+    projectName: "Expense Tracker App",
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424356/AJ_Portfolio_Assets/todo_list_app_t1v8ta.webp",
-    techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
-    techTags: ["HTML", "CSS", "JavaScript"],
+    techStack: "React App",
+    description:
+      "Track expenses effortlessly. Store items, dates, and amounts in a simple list format. Stay organized and in control of spending with this intuitive app, now with the ability to filter expenses by year.",
+    techTags: ["HTML", "CSS", "JavaScript", "React"],
     hostedLink: "https://aj-todolist.netlify.app/",
     gitHubLink: "#",
   },
@@ -30,7 +32,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/calculator_app_xogq9g.webp",
     techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Input your birth date and get your age instantly in various time formats like years, months, days, weeks, hours, minutes, seconds, and milliseconds.",
     techTags: ["HTML", "CSS", "JavaScript"],
     hostedLink: "https://aj-age-calculator.netlify.app/",
     gitHubLink:
@@ -57,7 +60,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/box_shadow_generator_app_mzsq8a.webp",
     techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Create and visualize box-shadows effortlessly. Adjust parameters and preview in real-time. Copy generated CSS with a click for easy implementation.",
     techTags: ["HTML", "CSS", "JavaScript"],
     hostedLink: "https://aj-box-shadow-generator.netlify.app/",
     gitHubLink:
@@ -70,8 +74,16 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/beu_app_bmucpr.webp",
     techStack: "React App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
-    techTags: ["HTML", "CSS", "JavaScript", "React"],
+    description:
+      "Access the latest college syllabus across branches. Easy navigation, stay updated, and prepare for exams hassle-free with this convenient tool. Simplify your academic journey with BEU-Exam Corner.",
+    techTags: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "React",
+      "React-Router",
+    ],
     hostedLink: "https://beu-exam-corner.netlify.app/",
     gitHubLink: "https://github.com/ATechAjay/BEU-New-Syllabus",
   },
@@ -82,7 +94,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/bg_changer_app_agfna2.webp",
     techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Instantly change backgrounds with ease. Choose from gradients or images to enhance your projects effortlessly.",
     techTags: ["HTML", "CSS", "JavaScript"],
     hostedLink: "https://aj-background-changer-v2.netlify.app/",
     gitHubLink:
@@ -95,7 +108,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/firebase_app_oivnwq.webp",
     techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Sync tasks seamlessly across devices using Firebase's real-time database. Enjoy reliable updates and effortless task management for enhanced productivity.",
     techTags: ["HTML", "CSS", "JavaScript", "Firebase"],
     hostedLink: "https://aj-firebase-v1.netlify.app/",
     gitHubLink: "#",
@@ -106,7 +120,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424355/AJ_Portfolio_Assets/notes_taking_app_dmpe9m.webp",
     techStack: "JavaScript App",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Organize tasks effortlessly with this browser-based Todo app, utilizing local storage for seamless access and management.",
     techTags: ["HTML", "CSS", "JavaScript"],
     hostedLink: "https://aj-notes-app.netlify.app/",
     gitHubLink:
@@ -118,7 +133,8 @@ const PROJECT_DATA = [
     image:
       "https://res.cloudinary.com/dxowsspd6/image/upload/v1712424354/AJ_Portfolio_Assets/hero_section_design_a2hpgh.webp",
     techStack: "HTML/CSS",
-    description: "lorem lorem lorem lorem lorem lorem lorem",
+    description:
+      "Recreate stunning Figma designs with precision. Simplify replicating captivating hero sections for your projects.",
     techTags: ["HTML", "CSS"],
     hostedLink: "https://atechajay-react-hero-section.netlify.app/",
     gitHubLink: "#",
