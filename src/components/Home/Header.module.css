@@ -76,11 +76,16 @@
 @media (max-width: 500px) {
   .mobile_nav_btn {
     display: block;
+    /* width: 100%; */
+    /* position: absolute;
+    top: 2rem;
+    right: 2rem; */
   }
 
   .header_link_container {
     z-index: 7777;
     background: hsla(210, 34%, 13%, 0.9);
+    width: 100%;
     position: absolute;
     top: -150%;
     left: 0;
