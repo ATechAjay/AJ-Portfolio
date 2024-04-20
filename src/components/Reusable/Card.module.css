@@ -1,9 +1,18 @@
 .card {
-  max-width: 25rem;
-  background: #fff;
-  color: #000;
   padding: 2rem;
   border-radius: 8px;
+  color: #fff;
+  max-width: 25rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #ffffff4f;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 .card_title {
@@ -37,8 +46,9 @@
   padding: 10px 0;
   text-align: center;
   text-decoration: none;
-  color: #000;
-  border: 2px solid #000;
+  color: #000000;
+  /* border: 2px solid #000; */
+  background: aqua;
   font-size: 1.4rem;
   margin-top: 1.3rem;
   border-radius: 5px;
@@ -54,7 +64,4 @@
   align-items: center;
   gap: 7px;
   font-size: 1.3rem;
-}
-
-.card_offer_list_text {
 }

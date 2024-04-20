@@ -1,5 +1,7 @@
 import style from "./Collab.module.css";
 import Card from "../../Reusable/Card";
+import { SPONSER_DATA } from "../../utils/Data";
+
 const Collab = () => {
   return (
     <div className={style.collab_container}>
@@ -15,9 +17,13 @@ const Collab = () => {
       </p>
       <h2 className={style.sponser_title}>Sponsorships</h2>
       <div className={style.card_container}>
+        {/* <Card />
         <Card />
-        <Card />
-        <Card />
+        <Card /> */}
+
+        {SPONSER_DATA.map((item) => {
+          return <Card key={item.id} {...item} />;
+        })}
       </div>
     </div>
   );
