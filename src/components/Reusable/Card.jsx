@@ -4,7 +4,8 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 const Card = (props) => {
   console.log(props);
 
-  const { title, description, duration, price, tags, mailSubject } = props;
+  const { title, description, duration, price, tags, mailSubject, btnText } =
+    props;
   console.log(mailSubject);
   return (
     <div className={style.card}>
@@ -18,7 +19,7 @@ const Card = (props) => {
         className={style.card_cta}
         href={`mailto:partnership.aj@gmail.com?subject=${mailSubject}`}
       >
-        Get Started Now
+        {btnText}
       </a>
       <ul className={style.card_offer}>
         {tags.map((tag, index) => {

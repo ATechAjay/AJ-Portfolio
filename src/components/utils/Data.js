@@ -101,7 +101,7 @@ const PROJECT_DATA = [
   },
 ];
 
-export const SPONSER_DATA = [
+export const SPONSOR_DATA = [
   {
     id: "sp_1",
     title: "Listicle",
@@ -110,6 +110,7 @@ export const SPONSER_DATA = [
     price: "110",
     duration: "Post",
     mailSubject: "Collaborate for a listicle post on 𝕏.",
+    btnText: "Get Started Now",
     tags: ["On top inclusion", "24hrs pinned", "Link or profile inclusion"],
   },
   {
@@ -120,11 +121,12 @@ export const SPONSER_DATA = [
     price: "220",
     duration: "Post",
     mailSubject: "Collaborate for a dedicated thread on 𝕏.",
+    btnText: "Most demanding",
     tags: [
       "Detail thread",
       "48 hrs pinned",
       "Custom link inclusion",
-      "𝕏 Profile inclusion",
+      "𝕏 Profile inclusion in a thread",
     ],
   },
   {
@@ -135,8 +137,9 @@ export const SPONSER_DATA = [
     price: "700",
     duration: "Month",
     mailSubject: "Collaborate for a brand ambassdor on 𝕏.",
+    btnText: "Subscribe Now",
     tags: [
-      "2 detail thread",
+      "2 detail threads",
       "Bio inclusion",
       "1 RT per day",
       "Vouch for you in public",

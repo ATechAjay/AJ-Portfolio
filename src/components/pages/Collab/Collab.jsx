@@ -1,6 +1,6 @@
 import style from "./Collab.module.css";
 import Card from "../../Reusable/Card";
-import { SPONSER_DATA } from "../../utils/Data";
+import { SPONSOR_DATA } from "../../utils/Data";
 
 const Collab = () => {
   return (
@@ -21,7 +21,7 @@ const Collab = () => {
         <Card />
         <Card /> */}
 
-        {SPONSER_DATA.map((item) => {
+        {SPONSOR_DATA.map((item) => {
           return <Card key={item.id} {...item} />;
         })}
       </div>
