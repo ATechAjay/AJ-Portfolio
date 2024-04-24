@@ -7,9 +7,10 @@ const Thread = () => {
       <a
         className="twitter-timeline load"
         href="https://twitter.com/ATechAjay"
-        data-width="900"
+        data-width="500"
+        data-tweet-limit="10"
         data-height="auto"
-        data-chrome="transparent"
+        data-chrome="transparent noscrollbar nofooter noborders"
       >
         <TweetLoading />
       </a>

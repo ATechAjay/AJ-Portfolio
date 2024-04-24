@@ -5,8 +5,11 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Collab from "./components/pages/Collab/Collab";
 
-import Thread from "./components/pages/Thread/Thread";
+// import Thread from "./components/pages/Thread/Thread";
 
+import { lazy, Suspense } from "react";
+
+const LazyThreadLoad = lazy(() => import("./components/pages/Thread/Thread"));
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -24,7 +27,11 @@ function App() {
         { path: "/collab", element: <Collab /> },
         {
           path: "/thread",
-          element: <Thread />,
+          element: (
+            <Suspense fallback={<h1>Loading...</h1>}>
+              <LazyThreadLoad />
+            </Suspense>
+          ),
         },
         { path: "/series", element: "Series" },
         { path: "/blog", element: "Blog" },
