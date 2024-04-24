@@ -1,4 +1,9 @@
-.title {
-  color: aqua;
+h1,
+p {
   text-decoration: none;
+}
+
+p {
+  margin-top: 18px;
+  font-weight: bold;
 }
