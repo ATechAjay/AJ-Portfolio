@@ -17,10 +17,6 @@ const Collab = () => {
       </p>
       <h2 className={style.sponser_title}>Sponsorships</h2>
       <div className={style.card_container}>
-        {/* <Card />
-        <Card />
-        <Card /> */}
-
         {SPONSOR_DATA.map((item) => {
           return <Card key={item.id} {...item} />;
         })}
