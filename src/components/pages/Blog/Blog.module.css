@@ -1,5 +1,7 @@
 .blog_container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog_container > h1 {
@@ -7,6 +9,45 @@
   font-size: 4.8rem;
 }
 
-.blogs {
-  /* background: red; */
+.description {
+  margin: 3rem auto;
+  font-size: 2.4rem;
+  width: 80%;
+  text-align: center;
+}
+
+.link {
+  color: #000;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: 3px solid aqua;
+  color: aqua;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  background: aqua;
+  color: #000000;
+}
+
+@media (max-width: 700px) {
+  .description {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .description {
+    width: 95%;
+  }
+
+  .blog_container > h1 {
+    font-size: 3.8rem;
+  }
 }
