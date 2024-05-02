@@ -4,8 +4,7 @@ import Project from "./components/pages/Project/Project";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Collab from "./components/pages/Collab/Collab";
-import Series from "./components/pages/Series/Series";
-// import Thread from "./components/pages/Thread/Thread";
+import Blog from "./components/pages/Blog/Blog";
 
 import { lazy, Suspense } from "react";
 
@@ -33,8 +32,7 @@ function App() {
             </Suspense>
           ),
         },
-        { path: "/series", element: <Series /> },
-        { path: "/blog", element: "Blog" },
+        { path: "/blog", element: <Blog /> },
         { path: "/connect", element: "Connect" },
       ],
     },

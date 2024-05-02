@@ -1,0 +1,12 @@
+.blog_container {
+  width: 100%;
+}
+
+.blog_container > h1 {
+  text-align: center;
+  font-size: 4.8rem;
+}
+
+.blogs {
+  /* background: red; */
+}

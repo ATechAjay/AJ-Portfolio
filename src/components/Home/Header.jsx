@@ -40,10 +40,6 @@ const Header = () => {
         </li>
 
         <li>
-          <Link to="/series">Series</Link>
-        </li>
-
-        <li>
           <Link to="/blog">Blog</Link>
         </li>
 

@@ -1,0 +1,12 @@
+.container {
+  background: green;
+  width: 100%;
+}
+
+.blog {
+  display: block;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  background: green;
+}
