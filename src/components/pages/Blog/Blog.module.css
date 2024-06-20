@@ -42,12 +42,17 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .description {
     width: 95%;
+    font-size: 1.8rem;
   }
 
   .blog_container > h1 {
     font-size: 3.8rem;
+  }
+
+  .link {
+    font-size: 2.2rem;
   }
 }

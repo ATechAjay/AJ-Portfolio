@@ -96,7 +96,7 @@ const PROJECT_DATA = [
     description:
       "Sync tasks seamlessly across devices using Firebase's real-time database. Enjoy reliable updates and effortless task management for enhanced productivity.",
     techTags: ["HTML", "CSS", "JavaScript", "Firebase"],
-    hostedLink: "https://aj-firebase-v1.netlify.app/",
+    hostedLink: "https://aj-firebase-app.netlify.app/",
     gitHubLink: "#",
   },
 ];
